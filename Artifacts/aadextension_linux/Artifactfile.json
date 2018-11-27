@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Integrate AAD as authentication",
+    "publisher": "Stijn Callebaut - itnetx",
+    "description": "Uses the AAD Authentication extension to provide seamless sign-on",
+    "tags": [
+        "Linux"
+    ],
+    "targetOsType": "Linux",
+    "parameters": {
+    },
+    "runAzureVMExtension": {
+        "publisher": "Microsoft.Azure.ActiveDirectory.LinuxSSH",
+        "type": "AADLoginForLinux ",
+        "typeHandlerVersion": "1.0",
+        "autoUpgradeMinorVersion": true,
+        "protectedSettings": {
+        }
+    }
+}
