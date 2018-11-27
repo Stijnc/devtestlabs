@@ -11,7 +11,7 @@
     },
     "runAzureVMExtension": {
         "publisher": "Microsoft.Azure.ActiveDirectory.LinuxSSH",
-        "type": "AADLoginForLinux ",
+        "type": "AADLoginForLinux",
         "typeHandlerVersion": "1.0",
         "autoUpgradeMinorVersion": true,
         "protectedSettings": {
